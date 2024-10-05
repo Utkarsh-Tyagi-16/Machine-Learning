@@ -20,22 +20,38 @@ Project Structure
 kotlin
 Copy code
 📦your-project
+
  ┣ 📂data
+ 
  ┃ ┗ 📜your-dataset.csv
+ 
  ┣ 📂pages
+ 
  ┃ ┗ 📜page-1.py
+ 
  ┣ 📜app.py
+ 
  ┣ 📜README.md
+ 
  ┣ 📜requirements.txt
+ 
 app.py: Main file that runs the Streamlit app.
+
 pages/: Directory containing additional pages for multi-page applications.
+
 data/: Folder to store datasets used by the app.
+
 Requirements
 The dependencies for this project can be found in the requirements.txt file. Below are the main packages used:
 
 streamlit
+
 pandas
+
 numpy
+
 Any other relevant libraries
+
 Contributing
+
 Feel free to fork this repository and submit pull requests if you'd like to contribute to the proj
